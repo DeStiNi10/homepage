@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  nginx-homepage:
+    container_name: nginx-homepage
+    image: nginx:latest
+    volumes:
+    - ./homepg:/usr/share/nginx/html:ro
+    ports:
+    - "8001:80"
+    restart: always
+  
