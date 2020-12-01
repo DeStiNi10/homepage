@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3"
 services:
   nginx-homepage:
     container_name: nginx-homepage
@@ -8,4 +8,3 @@ services:
     ports:
     - "8001:80"
     restart: always
-  
